@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-22T19:28:34 UTC" name="PlaywrightTestNGSuite" finished-at="2026-03-22T19:29:06 UTC" duration-ms="31665">
+    <groups>
+    </groups>
+    <test started-at="2026-03-22T19:28:34 UTC" name="UI Tests" finished-at="2026-03-22T19:29:06 UTC" duration-ms="31665">
+      <class name="tests.PlaywrightTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.PlaywrightTest@4b0b0854]" started-at="2026-03-22T19:28:34 UTC" name="beforeClass" finished-at="2026-03-22T19:28:38 UTC" duration-ms="3256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.PlaywrightTest@4b0b0854]" started-at="2026-03-22T19:28:38 UTC" name="beforeMethod" finished-at="2026-03-22T19:28:39 UTC" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyExampleDotCom()[pri:0, instance:tests.PlaywrightTest@4b0b0854]" started-at="2026-03-22T19:28:39 UTC" name="verifyExampleDotCom" description="Verify example.com title and heading" finished-at="2026-03-22T19:28:39 UTC" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExampleDotCom -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.PlaywrightTest@4b0b0854]" started-at="2026-03-22T19:28:39 UTC" name="afterMethod" finished-at="2026-03-22T19:28:39 UTC" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.PlaywrightTest@4b0b0854]" started-at="2026-03-22T19:28:39 UTC" name="afterClass" finished-at="2026-03-22T19:28:39 UTC" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.PlaywrightTest -->
+      <class name="tests.PlaywrightInterviewUsecases">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:39 UTC" name="beforeClass" finished-at="2026-03-22T19:28:40 UTC" duration-ms="793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:40 UTC" name="beforeMethod" finished-at="2026-03-22T19:28:40 UTC" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="captchaUsecase()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:40 UTC" name="captchaUsecase" description="Captcha use case: identify captcha and wait for manual solve" finished-at="2026-03-22T19:28:42 UTC" duration-ms="1932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captchaUsecase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:42 UTC" name="afterMethod" finished-at="2026-03-22T19:28:42 UTC" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:42 UTC" name="beforeMethod" finished-at="2026-03-22T19:28:42 UTC" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="crossBrowserNavigation(java.lang.String)[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:42 UTC" name="crossBrowserNavigation" description="Cross-browser navigation test" data-provider="browsers" finished-at="2026-03-22T19:28:43 UTC" duration-ms="937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowserNavigation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:43 UTC" name="afterMethod" finished-at="2026-03-22T19:28:43 UTC" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:43 UTC" name="beforeMethod" finished-at="2026-03-22T19:28:43 UTC" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="crossBrowserNavigation(java.lang.String)[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:43 UTC" name="crossBrowserNavigation" description="Cross-browser navigation test" data-provider="browsers" finished-at="2026-03-22T19:28:48 UTC" duration-ms="4698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowserNavigation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:48 UTC" name="afterMethod" finished-at="2026-03-22T19:28:48 UTC" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:48 UTC" name="beforeMethod" finished-at="2026-03-22T19:28:48 UTC" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="crossBrowserNavigation(java.lang.String)[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:48 UTC" name="crossBrowserNavigation" description="Cross-browser navigation test" data-provider="browsers" finished-at="2026-03-22T19:28:51 UTC" duration-ms="2842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webkit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowserNavigation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:51 UTC" name="afterMethod" finished-at="2026-03-22T19:28:51 UTC" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:51 UTC" name="beforeMethod" finished-at="2026-03-22T19:28:51 UTC" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="dataDrivenFormSubmit()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:51 UTC" name="dataDrivenFormSubmit" description="Data-driven form submit and URL assertion" finished-at="2026-03-22T19:28:54 UTC" duration-ms="2658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenFormSubmit -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:54 UTC" name="afterMethod" finished-at="2026-03-22T19:28:54 UTC" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:54 UTC" name="beforeMethod" finished-at="2026-03-22T19:28:54 UTC" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="dataDrivenNavigation()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:54 UTC" name="dataDrivenNavigation" description="Data-driven navigation and content validation" finished-at="2026-03-22T19:28:54 UTC" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenNavigation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:54 UTC" name="afterMethod" finished-at="2026-03-22T19:28:54 UTC" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:54 UTC" name="beforeMethod" finished-at="2026-03-22T19:28:54 UTC" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="dataDrivenNavigationFromExcelWithCollection()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:54 UTC" name="dataDrivenNavigationFromExcelWithCollection" description="Data-driven navigation from Excel map collection" finished-at="2026-03-22T19:28:55 UTC" duration-ms="1167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenNavigationFromExcelWithCollection -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:55 UTC" name="afterMethod" finished-at="2026-03-22T19:28:55 UTC" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:55 UTC" name="beforeMethod" finished-at="2026-03-22T19:28:55 UTC" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="fileUploadUsecase()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:55 UTC" name="fileUploadUsecase" description="File upload use case" finished-at="2026-03-22T19:28:57 UTC" duration-ms="1882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploadUsecase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:57 UTC" name="afterMethod" finished-at="2026-03-22T19:28:57 UTC" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:57 UTC" name="beforeMethod" finished-at="2026-03-22T19:28:57 UTC" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="headlessUsecase(boolean,java.lang.String)[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:57 UTC" name="headlessUsecase" description="Headless vs headed mode use case with screenshot capture" data-provider="headlessModes" finished-at="2026-03-22T19:28:59 UTC" duration-ms="1365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headlessUsecase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:59 UTC" name="afterMethod" finished-at="2026-03-22T19:28:59 UTC" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:59 UTC" name="beforeMethod" finished-at="2026-03-22T19:28:59 UTC" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="networkInterceptAndAssert()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:59 UTC" name="networkInterceptAndAssert" description="Network interception and API assertion" finished-at="2026-03-22T19:28:59 UTC" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- networkInterceptAndAssert -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:59 UTC" name="afterMethod" finished-at="2026-03-22T19:28:59 UTC" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:59 UTC" name="beforeMethod" finished-at="2026-03-22T19:28:59 UTC" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="newTabAndBackToParentUsecase()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:28:59 UTC" name="newTabAndBackToParentUsecase" description="New tab from link and return to parent URL use case" finished-at="2026-03-22T19:29:06 UTC" duration-ms="7205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTabAndBackToParentUsecase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:29:06 UTC" name="afterMethod" finished-at="2026-03-22T19:29:06 UTC" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.PlaywrightInterviewUsecases@13e39c73]" started-at="2026-03-22T19:29:06 UTC" name="afterClass" finished-at="2026-03-22T19:29:06 UTC" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.PlaywrightInterviewUsecases -->
+    </test> <!-- UI Tests -->
+  </suite> <!-- PlaywrightTestNGSuite -->
+</testng-results>

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PlaywrightTestNGSuite" parallel="false">
+  <test name="UI Tests">
+    <classes>
+      <class name="tests.PlaywrightTest"/>
+      <class name="tests.PlaywrightInterviewUsecases"/>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  UI Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>UI Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Mar 22 19:28:34 UTC 2026</td>
+</tr>
+<tr><td>Total time:</td><td>31 seconds (31665 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.PlaywrightInterviewUsecases.dataDrivenFormSubmit()'><b>dataDrivenFormSubmit</b><br>Test class: tests.PlaywrightInterviewUsecases<br>Test method: Data-driven form submit and URL assertion</td>
+<td></td>
+<td>2</td>
+<td>tests.PlaywrightInterviewUsecases@13e39c73</td></tr>
+<tr>
+<td title='tests.PlaywrightInterviewUsecases.crossBrowserNavigation()'><b>crossBrowserNavigation</b><br>Test class: tests.PlaywrightInterviewUsecases<br>Test method: Cross-browser navigation test<br>Parameters: firefox</td>
+<td></td>
+<td>4</td>
+<td>tests.PlaywrightInterviewUsecases@13e39c73</td></tr>
+<tr>
+<td title='tests.PlaywrightInterviewUsecases.newTabAndBackToParentUsecase()'><b>newTabAndBackToParentUsecase</b><br>Test class: tests.PlaywrightInterviewUsecases<br>Test method: New tab from link and return to parent URL use case</td>
+<td></td>
+<td>7</td>
+<td>tests.PlaywrightInterviewUsecases@13e39c73</td></tr>
+<tr>
+<td title='tests.PlaywrightInterviewUsecases.crossBrowserNavigation()'><b>crossBrowserNavigation</b><br>Test class: tests.PlaywrightInterviewUsecases<br>Test method: Cross-browser navigation test<br>Parameters: chromium</td>
+<td></td>
+<td>0</td>
+<td>tests.PlaywrightInterviewUsecases@13e39c73</td></tr>
+<tr>
+<td title='tests.PlaywrightInterviewUsecases.captchaUsecase()'><b>captchaUsecase</b><br>Test class: tests.PlaywrightInterviewUsecases<br>Test method: Captcha use case: identify captcha and wait for manual solve</td>
+<td></td>
+<td>1</td>
+<td>tests.PlaywrightInterviewUsecases@13e39c73</td></tr>
+<tr>
+<td title='tests.PlaywrightInterviewUsecases.crossBrowserNavigation()'><b>crossBrowserNavigation</b><br>Test class: tests.PlaywrightInterviewUsecases<br>Test method: Cross-browser navigation test<br>Parameters: webkit</td>
+<td></td>
+<td>2</td>
+<td>tests.PlaywrightInterviewUsecases@13e39c73</td></tr>
+<tr>
+<td title='tests.PlaywrightInterviewUsecases.networkInterceptAndAssert()'><b>networkInterceptAndAssert</b><br>Test class: tests.PlaywrightInterviewUsecases<br>Test method: Network interception and API assertion</td>
+<td></td>
+<td>0</td>
+<td>tests.PlaywrightInterviewUsecases@13e39c73</td></tr>
+<tr>
+<td title='tests.PlaywrightTest.verifyExampleDotCom()'><b>verifyExampleDotCom</b><br>Test class: tests.PlaywrightTest<br>Test method: Verify example.com title and heading</td>
+<td></td>
+<td>0</td>
+<td>tests.PlaywrightTest@4b0b0854</td></tr>
+<tr>
+<td title='tests.PlaywrightInterviewUsecases.dataDrivenNavigationFromExcelWithCollection()'><b>dataDrivenNavigationFromExcelWithCollection</b><br>Test class: tests.PlaywrightInterviewUsecases<br>Test method: Data-driven navigation from Excel map collection</td>
+<td></td>
+<td>1</td>
+<td>tests.PlaywrightInterviewUsecases@13e39c73</td></tr>
+<tr>
+<td title='tests.PlaywrightInterviewUsecases.fileUploadUsecase()'><b>fileUploadUsecase</b><br>Test class: tests.PlaywrightInterviewUsecases<br>Test method: File upload use case</td>
+<td></td>
+<td>1</td>
+<td>tests.PlaywrightInterviewUsecases@13e39c73</td></tr>
+<tr>
+<td title='tests.PlaywrightInterviewUsecases.dataDrivenNavigation()'><b>dataDrivenNavigation</b><br>Test class: tests.PlaywrightInterviewUsecases<br>Test method: Data-driven navigation and content validation</td>
+<td></td>
+<td>0</td>
+<td>tests.PlaywrightInterviewUsecases@13e39c73</td></tr>
+<tr>
+<td title='tests.PlaywrightInterviewUsecases.headlessUsecase()'><b>headlessUsecase</b><br>Test class: tests.PlaywrightInterviewUsecases<br>Test method: Headless vs headed mode use case with screenshot capture<br>Parameters: true, headless</td>
+<td></td>
+<td>1</td>
+<td>tests.PlaywrightInterviewUsecases@13e39c73</td></tr>
+</table><p>
+</body>
+</html>
